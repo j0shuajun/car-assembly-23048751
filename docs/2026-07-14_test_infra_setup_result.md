@@ -1,6 +1,6 @@
-Written at (KST): 2026-07-14 10:04
-
 # Step 0. 테스트 실행 인프라 준비 (Result)
+
+Written at (KST): 2026-07-14 10:04
 
 ## 1. 한눈에 보는 요약
 
@@ -15,7 +15,7 @@ TDD로 리팩토링하려면 "실패하는 테스트를 먼저 실행해볼 수 
 
 ## 3. Before / After
 
-| 구분 | Before | After |
+|구분|Before|After|
 |---|---|---|
 |테스트 실행|`pytest` 모듈 없음, 실행 불가|`.venv` 안에서 `python -m pytest -q`로 즉시 실행 가능|
 |의존성 관리|없음|`requirements-dev.txt`로 개발용 의존성 명시|
